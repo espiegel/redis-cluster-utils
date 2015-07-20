@@ -17,26 +17,15 @@ Note that `redis_host` and `redis_port` can be any node of a redis cluster and i
 ### Example:
 ```
  14:11:28:eidan@Eidan-SSD:~ $ java -jar target/redis-cluster-utils.jar 172.17.0.4 7000
-
  07-20 13:56:23.673INFO [main] Main - Found hostAndPort = 172.17.0.4:7002
- 
  07-20 13:56:23.674INFO [main] Main - Found hostAndPort = 172.17.0.4:7005
- 
  07-20 13:56:23.674INFO [main] Main - Found hostAndPort = 172.17.0.4:7004
- 
  07-20 13:56:23.674INFO [main] Main - Found hostAndPort = 172.17.0.4:7003
- 
  07-20 13:56:23.674INFO [main] Main - Found hostAndPort = 172.17.0.4:7001
- 
  07-20 13:56:23.674INFO [main] Main - Found hostAndPort = 172.17.0.4:7000
- 
  07-20 13:56:23.675INFO [main] Main - Retrieving keys of all nodes....
- 
  07-20 13:56:23.681INFO [main] Main - Keys of Node 172.17.0.4:7001 = [keyJobTimestamp:PendingScoringTaskJob:0]
- 
  07-20 13:56:23.682INFO [main] Main - Keys of Node 172.17.0.4:7000 = [flowCompCache:0, keyJobTimestamp:SendMailJob:0]
- 
  07-20 13:56:23.682INFO [main] Main - Keys of Node 172.17.0.4:7005 = [keyJobTimestamp:TimeDrivenJob:0, keyJobTimestamp:SentMessagesTtlJob:0]
- 
  ```
 
