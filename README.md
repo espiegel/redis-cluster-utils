@@ -1,5 +1,8 @@
 # redis-cluster-utils
 
+Requirements:
+1. JDK 8
+
 Prints out all keys of a redis cluster.
 
 1. Clone this repository locally
