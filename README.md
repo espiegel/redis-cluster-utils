@@ -16,7 +16,7 @@ Note that `redis_host` and `redis_port` can be any node of a redis cluster and i
 
 ### Example:
 ```
- 14:11:28:eidan@Eidan-SSD:~ $ java -jar target/redis-cluster-utils.jar 172.17.0.4 7000
+ 13:56:23:eidan@Eidan-SSD:~ $ java -jar target/redis-cluster-utils.jar 172.17.0.4 7000
  07-20 13:56:23.673INFO [main] Main - Found hostAndPort = 172.17.0.4:7002
  07-20 13:56:23.674INFO [main] Main - Found hostAndPort = 172.17.0.4:7005
  07-20 13:56:23.674INFO [main] Main - Found hostAndPort = 172.17.0.4:7004
